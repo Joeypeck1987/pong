@@ -197,7 +197,7 @@ function gameOver() {
   if (playerScore === winningScore || computerScore === winningScore) {
     isGameOver = true;
     // Set Winner
-    let winner = playerScore === winningScore ? 'Lesa' : 'The AI';
+    let winner = playerScore === winningScore ? 'The human' : 'The computer';
     showGameOverEl(winner);
   }
 }
